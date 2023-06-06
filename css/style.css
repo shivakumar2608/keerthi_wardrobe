@@ -71,23 +71,6 @@ body {
     margin: 3% 10%;
 }
 
-.coverClip video {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.7;
-}
-
-.coverClip img {
-    width: 100%;
-    box-sizing: border-box;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
-
-}
 
 .outer {
     padding: 0;
@@ -259,7 +242,7 @@ h3 {
 }
 
 .maggam-section {
-    background-image: url('images/caurosals/maggamDesignCover.jpg');
+    background-image: url('./images/caurosals/maggamDesignCover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
@@ -269,7 +252,7 @@ h3 {
 
 
 .rental-section {
-    background-image: url('images/caurosals/cover.jpeg');
+    background-image: url('./images/caurosals/cover.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
@@ -277,7 +260,7 @@ h3 {
 }
 
 .halfsaree-section {
-    background-image: url('images/caurosals/lehanga.jpg');
+    background-image: url('./images/caurosals/lehanga.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -286,7 +269,7 @@ h3 {
 }
 
 .saree-section {
-    background-image: url('images/caurosals/sarees2.jpg');
+    background-image: url('./images/caurosals/sarees2.jpg');
 
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -297,7 +280,7 @@ h3 {
 }
 
 .fabrics-section {
-    background-image: url('images/caurosals/fabricsCover.jpg');
+    background-image: url('./images/caurosals/fabricsCover.jpg');
     background-repeat: no-repeat;
     /* background-position: center; */
     background-size: cover;
