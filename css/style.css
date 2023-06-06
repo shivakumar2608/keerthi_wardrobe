@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    color: black;
+    font-family: 'Lora', serif;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.navbar-brand:hover {
+    font-family: 'Dancing Script', cursive;
+    color: grey;
+}
+
+.section1 {
+
+    background-color: rgba(128, 128, 128, 0.568);
+}
+
+.titleFont {
+    font-size: 4vh;
+    text-align: center;
+
+    color: black;
+    -webkit-text-stroke: 0.3px black;
+    /* width and color */
+}
+
+.subtitle {
+
+    font-size: 6vh;
+    color: #ff4c68;
+    -webkit-text-stroke: 0.3px white;
+    /* width and color */
+    font-weight: 600;
+    letter-spacing: 8px;
+    font-family: 'Aoboshi One', serif;
+}
+
+#myCarousel {
+    height: 70vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.carousel-item img {
+    height: 100vh;
+
+}
+
+.section2 {
+    margin: 3% 10%;
+}
+
+.coverClip video {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.coverClip img {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+
+}
+
+.outer {
+    padding: 0;
+    margin: 0;
+}
+
+.main-logo {
+    width: 40%;
+}
+
+#tittle {
+    color: white;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-link,
+a {
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.aboutinfo {
+    color: black;
+    text-align: center;
+    width: 80%;
+    margin: 7% auto 2% auto;
+    font-family: 'Lora', serif;
+}
+
+.aboutinfo h4 {
+    color: grey;
+
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item a:hover {
+    color: grey;
+}
+
+#Skills {
+    padding: 7% 7%;
+    background-color: rgba(255, 251, 246, 0.849);
+}
+
+
+h3 {
+    font-weight: bold;
+
+}
+
+.navbar {
+
+    padding: 0 3%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.skill-box {
+    margin: 2% 3%;
+    padding: 2%;
+
+    transition: 0.6s all ease-in-out;
+}
+
+.skill-box:hover {
+    margin: 5% 3%;
+    padding: 2%;
+
+    color: white;
+    background-color: black;
+    border-radius: 7%;
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100vh;
+}
+
+.project-list {
+    padding: 7%;
+    width: 100%;
+
+}
+
+.project-btn {
+    z-index: -1;
+    margin-left: 5%;
+}
+
+.carousel-btn {
+    padding-right: 2%;
+
+}
+
+.image-margin {
+    width: 50%;
+    text-align: center;
+}
+
+@media (min-width:700) {
+    .section1-margin {
+        margin: 85% !important;
+    }
+
+    .image-margin {
+        width: 85%;
+    }
+
+    .navbar-brand {
+        display: contents;
+    }
+}
+
+.img-cover {
+    border-radius: 50%;
+}
+
+.footer-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-more {
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+
+.coverClip {
+    display: none;
+}
+
+.maggam-section {
+    background-image: url('https://cdn0.weddingwire.in/article/4350/3_2/1280/jpg/110534-dotdusk-studios.jpeg');
+    background-image: url('https://image-marketing.s3.ap-south-1.amazonaws.com/wp-content/uploads/2020/10/05220255/1.-Maggam-Work-Blouse.jpg');
+    background-image: url('https://keepmestylish.com/wp/wp-content/uploads/2017/08/maggam-work-designs-on-pattu-blouses-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    color: white;
+
+}
+
+
+.rental-section {
+    background-image: url('/images/caurosals/cover.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    color: black;
+}
+
+.halfsaree-section {
+    background-image: url('/images/caurosals/lehanga.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    color: white;
+}
+
+.saree-section {
+    background-image: url('/images/caurosals/sarees2.jpg');
+
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    height: 60vh;
+    color: black;
+
+}
+
+.fabrics-section {
+    background-image: url('/images/caurosals/fabricsCover.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    height: 60vh;
+    color: white;
+
+}
+
+.stitching-section {
+    background-image: url('https://5.imimg.com/data5/SELLER/Default/2023/4/297114720/DH/WW/OI/25282362/professional-saree-draping-service-prepleating-ironing-boxfolding-500x500.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    height: 60vh;
+    color: white;
+
+}
+
+.card img {
+    border-radius: 7%;
+}
+
+.card {
+    border-radius: 7%;
+}
+
+
+.card:hover {
+    background-color: rgb(61, 60, 60);
+    color: white;
+    cursor: pointer;
+    margin-top: 2%;
+
+}
+
+.card img:hover {
+    border-radius: 7%;
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.11);
+    margin-top: 2%;
+}
+
+
+
+.btn-small:hover {
+    background-color: #ff4c68;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.gallery {
+    transition: 0.6s all ease-in-out;
+
+}
+
+.gallery:hover {
+    color: white;
+    background-color: black;
+    border-radius: 7%;
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+/* testimonials */
+
+.testimonials {
+    padding: 5%;
+    background-color: rgb(255, 241, 223);
+}
+
+.mySwiper {
+    width: 30%;
+    height: 80vh;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    z-index: 0;
+}
+
+swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
+.maps {
+    margin: 2%;
+}
+
+.whatsappFloatingButton img {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.cover-video {
+    display: none;
+}
+
+
+/* media-queries */
+
+@media (max-width: 650px) {
+    .mySwiper {
+        width: 65%;
+        height: 35%;
+    }
+
+    .skill-box {
+        /* transition: 0.6s all ease-in-out; */
+        margin: 0%;
+        padding: 0;
+
+    }
+
+    .skill-box h3 {
+        color: black;
+        background-color: rgba(240, 248, 255, 0.514);
+        margin: 3%;
+        text-align: center;
+
+    }
+
+    .skill-box:hover {
+        color: white;
+        background-color: black;
+        margin: 0%;
+        padding: 0;
+
+        cursor: pointer;
+        transform: scale(1);
+
+    }
+
+    #myCarousel {
+        display: none;
+    }
+
+    .navbar {
+        background-color: #ff4c68;
+    }
+
+    .section2 {
+        margin: 0;
+        margin-top: 65%;
+        /* background-color: #ff4c68; */
+
+
+        height: 80vh;
+    }
+
+    .cover-video {
+        display: block;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+    }
+
+    .cover-video video {
+
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #Skills {
+        padding: 0;
+        margin: 2%;
+        color: black;
+    }
+
+    .whatsappFloatingButton img {
+        width: 25%;
+        bottom: 2%;
+        right: 2%;
+    }
+
+    .card-img-top {
+        height: 10vh;
+    }
+
+    .navbarScroll {
+        background-color: #ff4c68;
+        z-index: 1;
+        color: black;
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: rgb(255, 102, 203);
+    }
+
+
+
+}
+
+.navbarScroll {
+    background-color: #ff4c68;
+    z-index: 1;
+    color: black;
+    border-color: aliceblue;
+}
