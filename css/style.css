@@ -242,7 +242,7 @@ h3 {
 }
 
 .maggam-section {
-    background-image: url('./images/caurosals/maggamDesignCover.jpg');
+    background-image: url('/./images/caurosals/maggamDesignCover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
